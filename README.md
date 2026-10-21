@@ -1,6 +1,6 @@
 # Code and Text-Free Data for Organisation-Level Semantic Identity in K-pop
 
-This package contains the analysis code, a text-free derived song-level dataset and selected numeric result tables associated with *A Computational Framework for Modelling Organisation-Level Semantic Identity from Longitudinal Textual Data*, by Brinda Murali Krishna, Oktay Karakuş and Can Eyüpoğlu ([arXiv:2609.29584](https://arxiv.org/abs/2609.29584)). The code in `src/` is licensed under MIT, Copyright (c) 2026 Oktay Karakuş. The data and result tables are covered by separate terms (see [Licensing](#licensing)). Version `v1.0.0`.
+This package contains the analysis code, a text-free derived song-level dataset and selected numeric result tables associated with *A Computational Framework for Modelling Organisation-Level Semantic Identity from Longitudinal Textual Data*, by Brinda Murali Krishna, Oktay Karakuş and Can Eyüpoğlu ([arXiv:2609.29584](https://arxiv.org/abs/2609.29584)). The code in `src/` is licensed under MIT, Copyright (c) 2026 Oktay Karakuş. The derived dataset and result tables are licensed under CC BY 4.0 (see [Licensing](#licensing)). Version `v1.0.0`, distributed through GitHub only; no DOI has been assigned.
 
 It is not a complete end-to-end reproduction archive. It contains no lyrics, song titles or source metadata.
 
@@ -42,6 +42,7 @@ Company labels come from a static artist-to-company lookup. Affiliation was not 
 | `provenance/` | Script provenance, result-table hashes, release-safety record and `SHA256SUMS` |
 | `CITATION.cff` | Citation metadata |
 | `LICENSE` | MIT licence for the code only |
+| `LICENSE-DATA.md` | CC BY 4.0 licence for `data/` and `results/` |
 
 There is no `figures/` folder. The submitted figures are part of the manuscript, and Fig 5 and Table 4 display lyric-derived community vocabulary that has not been cleared for redistribution.
 
@@ -156,9 +157,9 @@ Rebuilding the exact 1,289-song set would also need the artist-to-company lookup
 ## Licensing
 
 - **Code** (`src/`): MIT, Copyright (c) 2026 Oktay Karakuş (see `LICENSE`). This follows the arrangement used for the authors' companion code release.
-- **Derived dataset and result tables** (`data/`, `results/`): not covered by the MIT licence. Their licence is pending the authors' decision (see `data/README.md`).
-- **Institutional IP**: Cardiff University's policy on releasing code and data has not been checked. The copyright line records the claimant's assertion; it has not been verified independently.
-- **Third-party material**: the MIT licence does not apply to lyrics, Melon metadata or any third-party material, none of which is included. Dependencies keep their own licences.
+- **Derived dataset and result tables** (`data/`, `results/`): CC BY 4.0, Copyright (c) 2026 Brinda Murali Krishna, Oktay Karakuş and Can Eyüpoğlu (see `LICENSE-DATA.md`).
+- **Institutional IP**: ownership has not been independently verified, including against Cardiff University's IP policy. The copyright lines record the authors' assertion, and both licences are granted on that basis.
+- **Third-party material**: neither licence applies to lyrics, Melon metadata or any other third-party material, none of which is included. Dependencies keep their own licences.
 
 ## How to Cite
 

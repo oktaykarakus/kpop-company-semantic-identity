@@ -20,12 +20,11 @@ Prepared 2026-10-21. These are static checks of the repository contents. They ar
 |---|---|
 | Lyrics | Restricted: copyright of the rights holders. Not included |
 | Melon chart and song metadata | Unclear: no permission found. Not included |
-| Computed per-song metrics, pseudonymous IDs, company, community, release year | Author-generated or factual; judged releasable |
-| Numeric aggregate result tables | Author-generated; judged releasable |
+| Computed per-song metrics, pseudonymous IDs, company, community, release year | Author-generated or factual; judged releasable. CC BY 4.0 |
+| Numeric aggregate result tables | Author-generated; judged releasable. CC BY 4.0 |
 | Author-generated code | Releasable under MIT at the copyright claimant's direction |
 
 ## Open items
 
-- Licence for `data/` and `results/` (author decision).
-- Cardiff University's IP policy on code and data release has not been checked.
+- Institutional IP ownership (Cardiff University's policy on code and data release) has not been independently verified. The licences are granted on the authors' assertion.
 - Korean database and copyright law were not reviewed. This matters mainly for `release_year`, which originates in Melon's release-date field.

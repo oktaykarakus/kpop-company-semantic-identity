@@ -10,14 +10,17 @@ authors:
   - family-names: Eyüpoğlu
     given-names: Can
 version: "1.0.0"
-license: MIT
+license:
+  - MIT
+  - CC-BY-4.0
 repository-code: "https://github.com/oktaykarakus/kpop-company-semantic-identity"
 abstract: >-
   Analysis and figure scripts, a text-free song-level dataset (1,289 songs,
   126 artists, four companies, 1997-2023) and numeric result tables supporting
-  a computational framework for organisation-level semantic identity. The MIT
-  licence covers the code only. The package contains no lyrics and is not a
-  complete end-to-end reproduction archive.
+  a computational framework for organisation-level semantic identity. The code
+  is licensed under MIT; the derived dataset and result tables under CC BY 4.0.
+  The package contains no lyrics and is not a complete end-to-end reproduction
+  archive.
 preferred-citation:
   type: article
   title: "A Computational Framework for Modelling Organisation-Level Semantic Identity from Longitudinal Textual Data"
