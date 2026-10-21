@@ -1,0 +1,15 @@
+analysis,entity,primary_statistic,primary_value,secondary_statistic,secondary_value,agreement,largest_deviation,conclusion
+Temporal window definition,annual,Mean consecutive profile drift,0.3866213787140723,Dominant-community change probability,0.6911764705882353,,,descriptive_window_result
+Temporal window definition,rolling_3_year,Mean consecutive profile drift,0.0928695294943481,Dominant-community change probability,0.38666666666666666,,,descriptive_window_result
+Temporal window definition,rolling_5_year,Mean consecutive profile drift,0.04534634691074681,Dominant-community change probability,0.2465753424657534,,,descriptive_window_result
+Temporal window definition,rolling_7_year,Mean consecutive profile drift,0.026356912363274716,Dominant-community change probability,0.19117647058823528,,,descriptive_window_result
+Company temporal sensitivity,HYBE,Entropy-direction agreement,0.5,Mean rank across definitions,3.25,decreasing,0.1535100318902199,moderately_robust
+Company temporal sensitivity,JYP,Entropy-direction agreement,0.75,Mean rank across definitions,1.7505092946269416,increasing,0.5512290746099711,robust
+Company temporal sensitivity,SM,Entropy-direction agreement,1.0,Mean rank across definitions,2.495765104460757,increasing,0.32374291546374573,highly_robust
+Company temporal sensitivity,YG,Entropy-direction agreement,1.0,Mean rank across definitions,1.8633540372670807,increasing,0.33239018677791865,highly_robust
+Pairwise temporal sensitivity,HYBE|JYP,Convergence-direction agreement,1.0,Mean distance slope,-0.018370560126358182,converging,0.011275780315336176,highly_robust
+Pairwise temporal sensitivity,HYBE|SM,Convergence-direction agreement,1.0,Mean distance slope,-0.01846606328961519,converging,0.009402456087675516,highly_robust
+Pairwise temporal sensitivity,HYBE|YG,Convergence-direction agreement,0.75,Mean distance slope,-0.01936591833837136,converging,0.06603093737877799,robust
+Pairwise temporal sensitivity,JYP|SM,Convergence-direction agreement,1.0,Mean distance slope,-0.01654554250080775,converging,0.016289414576637552,highly_robust
+Pairwise temporal sensitivity,JYP|YG,Convergence-direction agreement,1.0,Mean distance slope,-0.014534404013825889,converging,0.013235683078825658,highly_robust
+Pairwise temporal sensitivity,SM|YG,Convergence-direction agreement,1.0,Mean distance slope,-0.013770024736146483,converging,0.0034099487792899705,highly_robust

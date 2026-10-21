@@ -1,0 +1,2 @@
+analysis,n_expected_analyses,n_available_analyses,analysis_coverage,mean_robustness_score,mean_structure_robustness_score,mean_ranking_robustness_score,overall_conclusion,continuous_structure_conclusion,exact_ranking_conclusion,interpretation
+Overall WP6 robustness,6,6,1.0,3.3333333333333335,3.1666666666666665,2.6666666666666665,robust,robust,robust,The continuous company-level semantic structure is more stable than the exact ordinal ranking. Rank changes primarily involve the intermediate companies rather than a collapse of the broader geometry.

@@ -1,0 +1,14 @@
+# Generated outputs. Scripts write to outputs/; copy results/ there to run figure scripts.
+/outputs/
+# Private inputs that must never be committed (lyrics, titles, source keys, lookup).
+*company_master*.parquet
+*company_analysis_dataset*.parquet
+*lyrics*.parquet
+big4_lookup.csv
+# Environment and OS clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+._*
+.venv/

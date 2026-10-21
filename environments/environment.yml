@@ -1,0 +1,17 @@
+# PLOS-C1 conda environment specification. Built from existing evidence only;
+# untested. See requirements.txt for the evidence behind each entry.
+name: kpop-company-semantics
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.12
+  - pandas>=2.0
+  - numpy>=1.24
+  - pyarrow
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - plotly>=6.0
+  - python-kaleido>=1.0
+  - pillow>=10.0

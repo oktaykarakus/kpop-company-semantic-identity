@@ -1,0 +1,19 @@
+column,dtype,description
+record_id,object,Pseudonymous song record ID (replaces song_uid; see derivation rule in README)
+artist_id,object,Pseudonymous artist ID (replaces artist_normalised; grouping unit for artist-level tests and leave-one-artist-out)
+company,object,Big Four company label (static portfolio; not verified at release date)
+release_year,int64,Release year (analysis year; 'year' in company_master_analysis_v1.parquet)
+analysis_eligible,bool,Eligibility flag used as a filter by the analysis scripts (True for all rows)
+community,int64,Semantic community label (15 communities)
+degree,int64,Similarity-graph degree
+weighted_degree,float64,Similarity-graph weighted degree
+external_strength,float64,Edge weight to songs outside own community
+external_strength_fraction,float64,external_strength / weighted_degree
+participation_coefficient,float64,Participation coefficient across communities
+community_entropy,float64,Entropy of neighbour-community distribution
+external_communities_reached,int64,Number of other communities reached by edges
+local_novelty,float64,1 - mean cosine similarity to graph neighbours
+max_centroid_cosine,float64,Cosine similarity to nearest community centroid
+centroid_margin,float64,Gap between nearest and second-nearest centroid cosine
+centroid_novelty,float64,1 - max_centroid_cosine
+bridge_affinity_score,float64,Bridge affinity score

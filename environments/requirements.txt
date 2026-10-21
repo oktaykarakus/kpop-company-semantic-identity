@@ -1,0 +1,25 @@
+# PLOS-C1 environment specification (pip). Built from existing evidence only;
+# NOT a tested or confirmed reproduction environment.
+#
+# Evidence used:
+#   - third-party imports found in the staged scripts (static AST scan);
+#   - src/visualisation/requirements.txt (lower bounds for plotly, kaleido,
+#     pandas, numpy, Pillow);
+#   - analysis/09a2_cross_workpackage_consistency.py uses same-quote nested
+#     f-strings (PEP 701), so Python >= 3.12 is required (all 48 staged .py
+#     files parse under 3.12.3; 09a2 fails to parse under 3.10).
+# Versions in the comments are those installed in the local "kpop-nlp" conda
+# env on 2026-10-21. That env runs Python 3.10, so it cannot be the env that
+# ran 09a2. The versions used for the original runs are unrecorded.
+#
+# Python >= 3.12
+pandas>=2.0          # kpop-nlp: 2.3.3
+numpy>=1.24          # kpop-nlp: 2.2.6
+pyarrow              # parquet I/O; kpop-nlp: 23.0.0
+scipy                # kpop-nlp: 1.15.3
+scikit-learn         # kpop-nlp: 1.7.2
+statsmodels          # 05b only; kpop-nlp: 0.14.6
+matplotlib           # 09e, 09f only; kpop-nlp: 3.10.8
+plotly>=6.0          # figure scripts; kpop-nlp: 6.5.2
+kaleido>=1.0         # Plotly static export; kpop-nlp: 1.2.0 (may need local Chrome/Chromium)
+Pillow>=10.0         # figure scripts (TIFF export); kpop-nlp: 12.1.0
